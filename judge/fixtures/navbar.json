@@ -2,7 +2,7 @@
     {
         "fields": {
             "key": "problems",
-            "label": "Problems",
+            "label": "문제",
             "level": 0,
             "lft": 1,
             "order": 1,
@@ -46,22 +46,6 @@
         },
         "model": "judge.navigationbar",
         "pk": 3
-    },
-    {
-        "fields": {
-            "key": "contest",
-            "label": "Contests",
-            "level": 0,
-            "lft": 1,
-            "order": 5,
-            "parent": null,
-            "path": "/contests/",
-            "regex": "^/contest",
-            "rght": 2,
-            "tree_id": 4
-        },
-        "model": "judge.navigationbar",
-        "pk": 5
     },
     {
         "fields": {

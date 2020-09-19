@@ -1,0 +1,9 @@
+archive: aplusb.zip
+output_limit_length: 0
+test_cases:
+- in: aplusb.1.in
+  out: aplusb.1.out
+  points: 4
+- in: aplusb.2.in
+  out: aplusb.2.out
+  points: 16

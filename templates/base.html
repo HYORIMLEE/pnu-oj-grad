@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
-    <title>{% block title %}{{ title }} - {{ SITE_LONG_NAME }}{% endblock %}</title>
+    <title>PNU Online Judge</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     {% if misc_config.meta_keywords %}
         <meta name="keywords" content="{{ misc_config.meta_keywords }}">
@@ -246,22 +246,6 @@
     </div>
     <div id="nav-shadow"></div>
 </nav>
-{% if request.in_contest %}
-    <div id="contest-info">
-        <a href="{{ url('contest_view', request.participation.contest.key) }}" style="vertical-align: middle">
-            {{ request.participation.contest.name }} -
-            {% if request.participation.spectate %}
-                {{ _('spectating') }}
-            {% elif request.participation.end_time %}
-                <div id="contest-time-remaining" data-secs="{{ request.participation.time_remaining|seconds }}">
-                    {{ request.participation.time_remaining|timedelta("localized") }}
-                </div>
-            {% else %}
-                {{ _('virtual') }}
-            {% endif %}
-        </a>
-    </div>
-{% endif %}
 <div id="page-container">
     <noscript>
         <div id="noscript">{{ _('This site works best with JavaScript enabled.') }}</div>
@@ -291,7 +275,7 @@
     <footer>
         <span id="footer-content">
             <br>
-            <a style="color: #808080" href="https://dmoj.ca">proudly powered by <b>DMOJ</b></a> |
+            <a style="color: #808080" >PNU Online Judge</a> |
             {% if i18n_config.footer %}
                 {{ i18n_config.footer|safe }} |
             {% endif %}
