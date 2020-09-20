@@ -135,8 +135,8 @@ STATIC_ROOT = '/tmp/static'
 ############################################
 
 ## DMOJ site display settings.
-SITE_NAME = 'DMOJ'
-SITE_LONG_NAME = 'DMOJ: Modern Online Judge'
+SITE_NAME = 'PNU'
+SITE_LONG_NAME = 'PNU Online Judge'
 SITE_ADMIN_EMAIL = 'admin@example.com'
 TERMS_OF_SERVICE_URL = '//dmoj.ca/tos' # Use a flatpage.
 

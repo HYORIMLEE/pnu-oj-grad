@@ -57,3 +57,5 @@ INFO 2020-09-19 05:10:25,308 judge_handler Judge authenticated: ('127.0.0.1', 46
 INFO 2020-09-19 05:37:09,967 judge_handler judge1: Updated problem list
 INFO 2020-09-19 05:37:09,973 judge_handler judge1: Updated problem list
 INFO 2020-09-19 05:38:40,479 judge_handler judge1: Updated problem list
+INFO 2020-09-19 15:15:50,391 judge_handler Judge connected from: ('127.0.0.1', 53692)
+INFO 2020-09-19 15:15:50,399 judge_handler Judge authenticated: ('127.0.0.1', 53692) (judge1)

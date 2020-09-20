@@ -56,7 +56,7 @@
             "creation_date": "2017-12-02T08:50:25.199Z",
             "is_open": true,
             "slug": "dmoj",
-            "name": "DMOJ: Modern Online Judge",
+            "name": "PNU Online Judge",
             "registrant": 1,
             "short_name": "DMOJ",
             "slots": null
@@ -164,8 +164,8 @@
     },
     {
         "fields": {
-            "domain": "localhost:8081",
-            "name": "DMOJ: Modern Online Judge"
+            "domain": "localhost:8080",
+            "name": "PNU Online Judge"
         },
         "model": "sites.site",
         "pk": 1
