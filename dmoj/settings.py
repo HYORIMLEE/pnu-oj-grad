@@ -30,8 +30,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 SITE_ID = 1
-SITE_NAME = 'DMOJ'
-SITE_LONG_NAME = 'DMOJ: Modern Online Judge'
+SITE_NAME = 'PNU'
+SITE_LONG_NAME = 'PNU Online Judge'
 SITE_ADMIN_EMAIL = False
 
 DMOJ_REQUIRE_STAFF_2FA = True
@@ -151,7 +151,7 @@ else:
 
     WPADMIN = {
         'admin': {
-            'title': 'DMOJ Admin',
+            'title': 'PNU Online Judge',
             'menu': {
                 'top': 'wpadmin.menu.menus.BasicTopMenu',
                 'left': 'wpadmin.menu.custom.CustomModelLeftMenuWithDashboard',
@@ -174,14 +174,6 @@ else:
                     ],
                 },
                 {
-                    'model': 'judge.Contest',
-                    'icon': 'fa-bar-chart',
-                    'children': [
-                        'judge.ContestParticipation',
-                        'judge.ContestTag',
-                    ],
-                },
-                {
                     'model': 'auth.User',
                     'icon': 'fa-user',
                     'children': [
@@ -197,20 +189,6 @@ else:
                         'judge.OrganizationRequest',
                     ],
                 },
-                {
-                    'model': 'judge.NavigationBar',
-                    'icon': 'fa-bars',
-                    'children': [
-                        'judge.MiscConfig',
-                        'judge.License',
-                        'sites.Site',
-                        'redirects.Redirect',
-                    ],
-                },
-                ('judge.BlogPost', 'fa-rss-square'),
-                ('judge.Comment', 'fa-comment-o'),
-                ('flatpages.FlatPage', 'fa-file-text-o'),
-                ('judge.Solution', 'fa-pencil'),
             ],
             'dashboard': {
                 'breadcrumbs': True,
