@@ -189,6 +189,7 @@ else:
                         'judge.OrganizationRequest',
                     ],
                 },
+                
             ],
             'dashboard': {
                 'breadcrumbs': True,
