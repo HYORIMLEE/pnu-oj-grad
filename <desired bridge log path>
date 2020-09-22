@@ -44944,3 +44944,6 @@ INFO 2020-09-22 07:21:13,717 judge_handler judge01: Updated problem list
 INFO 2020-09-22 07:21:13,726 judge_handler judge01: Updated problem list
 INFO 2020-09-22 07:21:13,735 judge_handler judge01: Updated problem list
 INFO 2020-09-22 07:21:13,742 judge_handler judge01: Updated problem list
+INFO 2020-09-22 07:22:13,805 base_handler Socket timed out: ('127.0.0.1', 39802)
+WARNING 2020-09-22 07:22:13,806 judge_handler Judge seems dead: judge01: False
+INFO 2020-09-22 07:22:13,839 judge_handler Judge disconnected from: ('127.0.0.1', 39802) with name judge01
